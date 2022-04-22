@@ -1,0 +1,52 @@
+/* CORPO DA PAGINA COM MENU E RODAPE*/
+
+.Menu{display: block}
+
+.Menu ul{list-style: none; text-transform: uppercase;border-width:2px; border-style: solid; color: black;background-color: #F2F2F2}
+
+.Menu li{display: inline-block;padding: 10px;margin: 2px}
+
+.p{text-align: justify;text-indent: 50px}
+
+.Rodape{border-width:2px; border-style: solid; margin-bottom: 10px;margin-left: 000px; margin-right: 000px;margin-top: 50px;background-color: #F2F2F2}
+
+/* INICIO DAS CONFIG DAS SECTION COMPRAR*/
+
+/* CORPO DE CONFIG DOS INGREDIENTES*/
+
+.ingredientes li{font-size: 25px;list-style-type:decimal}
+
+.ingredientes li{margin-top: 20px;margin-left: 100px;margin-right: 100px}
+
+/* FIM CORPO DE CONFIG DOS INGREDIENTES*/
+
+/* CORPO DE CONFIG DO PREPARO*/
+
+.preparo li{font-size: 25px;list-style-type:decimal}
+
+.preparo li{margin-top: 20px;margin-left: 100px;margin-right: 100px}
+
+/* FIM CORPO DE CONFIG DO PREPARO*/
+
+/* CONFIG DO VIDEO*/
+
+.Video{margin-top: 50px}
+
+/* FIM CORPO DE CONFIG DO VIDEO*/
+
+/* CONFIG DA TABELA DE CONTATO*/
+
+form{width: 500px;margin: auto}
+
+input, textarea{font-family: sans-serif; font-weight:normal; font-size: 13pt}
+
+input:hover, textarea:hover{background-color:#F2F2F2}
+
+legend{color:#888888;font-weight: bold;font-size: 13pt;font-family: sans-serif}
+
+fieldset{border-color:#F2F2F2; margin: 20px}
+
+fieldset#Sexo{width: 150px}
+
+/* FIM CONFIG DA TABELA DE CONTATO*/
+

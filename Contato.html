@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>BOBÓ DE CAMARÃO</title>
+        <link href="Estilo.css" type="text/css" rel="stylesheet"/>
+    </head>
+    
+    <body bgcolor=#F7F8E0>
+        
+        <img src="img/banner.jpg"width="1500px" height="180px" title="BOBÓ DE CAMARÃO" alt="BOBÓ DE CAMARÃO"/>
+
+       <section class="Menu"> 
+           <ul>
+           <center>
+           <li><a href="Index.html">HOME</a></li>
+           <li><a href="Receita.html">RECEITA</a></li>
+           <li><a href="V%C3%ADdeo.html">VÍDEO</a></li>
+           <li><a href="Contato.html">CONTATO</a></center>
+           </ul>
+            
+        </section>
+        
+        <section class="Formulario">
+            
+            <center><h3>Cadastre-se e concorra a brindes, e receba nossas receitas.</h3></center>
+        
+            <form method="post" id="fContato" action="mailto:contato@contato.com.br">
+            
+                <fieldset id="Usuario"><legend>Identificaçao do usuário:</legend>
+                <p><label for="cNome">Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome Completo"/></label></p>
+                
+                    <p><label for="cSenha">Senha: <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos"/></label></p>
+                
+                    <p><label for="cMail">E-mail: <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="E-mail"/></label></p>
+                    
+                    <fieldset id="Sexo"><legend>Sexo</legend>
+                    <input type="radio" name="tSexo" id="cMasculino"/> <label for="cMasculino">Masculino</label><br/>
+                    <input type="radio" name="tSexo" id="cFeminino" checked/><label for="cFeminino">Feminino</label></fieldset>
+                
+                    <p>Data de Nascimento:<input type="date" name="tNasc" id="cNasc"/></p>
+                
+                </fieldset>
+            
+                
+                <fieldset id="Endereço"><legend>Endereço do Usuário</legend>
+                
+                <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav,..."/></p>
+                
+                <p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
+                
+                <p><label for="cEst">Estado:</label><select name="tEst" id="cEst">
+                    
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option selected value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+      
+                    </select></p>
+                
+                <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade"/></p>
+                
+                </fieldset>
+            
+                
+                <fieldset id="Mensagem"><legend>Mensagem do Usuário</legend>
+                
+                    <p><label for="cUrg">Grau de Urgência:</label> Mín <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2"/> Máx </p>
+                
+                    <p><label for="cMsg">Mensagem:</label><textarea name="tMsg" id="cMsg"cols="35" rows="5" placeholder="Deixe aqui sua mensagem:"></textarea></p>
+                
+                </fieldset>
+            
+                <fieldset id="Termo"><legend>Termo de aceite anúncios</legend>
+                
+                    <p><label for="tAceit">Aceito os Termos para Receber as receitas via E-mail.</label><input type="checkbox" name="tPed" id="cPed" checked/></p>
+                
+                </fieldset>
+                   
+                <fieldset id="Enviar">
+            
+                    <input type="image" name="tEnviar" src="img/bot%C3%A3o-enviar-png-9.png"width="200px" height="70px"/>
+                    
+                </fieldset>
+                
+                
+                </form>
+        
+        </section>
+   
+                 <footer>
+             <section class="Rodape">
+                <center>
+                    <head><h1><font size="4" face="Times">Nome: Murilo Alves RGM:1.23760125 Turma 1F Ciencias da computação
+                        </font></h1></head>
+                </center>
+            </section>
+            </footer>
+        
+</body>
+
+</html>
