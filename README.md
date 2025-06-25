@@ -1,16 +1,32 @@
 # ProjetosHTML-CSS
-Olá, Abaixo Segue Oque foi solicitado no Exercício aplicado:
 
-1.Crie um pequeno site com 4 páginas, onde:
-Na página index (inicial) insira somente o nome do site (pode ter imagens) e
-quatro links (HOME | Receita | Vídeo Contato)
+✅ Exercício Prático – Criação de um Site com 4 Páginas
 
-2.Na página Receita insira a descrição completa de uma receita e o
-componente de áudio para o usuário ouvir a receita, caso a mesma
-esteja disponível, caso contrário escolha uma música qualquer.
+Olá,
+Segue abaixo a descrição das tarefas solicitadas no exercício aplicado:
 
-3.Na página Vídeo insira o vídeo relacionado a receita.
+🏠 1. Página Inicial (index.html)
+Exibir o nome do site (pode conter imagens).
 
-4.Na página Contato, crie um formulário aplicando TODOS os elementos
-estudados nesta aula,
-inclusive com os atributos passados.
+Incluir quatro links de navegação no topo ou em local visível:
+
+HOME | Receita | Vídeo | Contato
+
+🍽️ 2. Página "Receita" (receita.html)
+Adicionar a descrição completa de uma receita culinária.
+
+Incluir um componente de áudio com duas possibilidades:
+
+Se disponível, insira um áudio com a leitura da receita.
+
+Caso contrário, utilize uma música qualquer como alternativa.
+
+🎬 3. Página "Vídeo" (video.html)
+Inserir um vídeo relacionado à receita (pode ser um vídeo próprio ou do YouTube incorporado).
+
+📩 4. Página "Contato" (contato.html)
+Criar um formulário de contato completo, utilizando:
+
+Todos os elementos estudados em aula.
+
+Todos os atributos abordados (ex: required, placeholder, type, etc.).
